@@ -15,10 +15,18 @@ export default function IndexPage() {
       <div className="flex justify-center mt-6">
         <div className="flex rounded-t-full rounded-b-full overflow-hidden max-w-4xl w-9/12">
           <div className="flex-1 flex-shrink-0">
-            <Select prompt="Manufactures" />
+            <Select prompt="Manufactures">
+              <option>Manufacture A</option>
+              <option>Manufacture B</option>
+              <option>Manufacture C</option>
+            </Select>
           </div>
           <div className="flex-1 flex-shrink-0">
-            <Select prompt="Global" />
+            <Select prompt="Global">
+              <option>Global A</option>
+              <option>Global B</option>
+              <option>Global C</option>
+            </Select>
           </div>
           <div className="flex-auto">
             <Input
@@ -64,7 +72,7 @@ export default function IndexPage() {
             sit amet pharetra augue. Sed accumsan quis purus a facilisis.
           </p>
         </div>
-        <div className="flex-1 bg-gray-800" style={{ width: 500 }} />
+        <div className="flex-1 bg-gray-800" />
       </div>
       <div className="flex mt-6 justify-center mb-6 ">
         <Button color="secondary" className="mr-4">
