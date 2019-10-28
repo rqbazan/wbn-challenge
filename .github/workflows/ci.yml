@@ -20,7 +20,7 @@ jobs:
         run: yarn eslint .
 
       - name: Build
-        run: yarn build
+        run: ./build.sh
 
         env:
           CI: true
