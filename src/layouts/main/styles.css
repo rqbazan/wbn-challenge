@@ -17,6 +17,6 @@
 .header {
   @apply flex items-center justify-between;
   @apply py-4 px-8 h-20;
-  @apply bg-header fixed right-0;
+  @apply bg-header fixed right-0 z-10;
   left: theme('spacing.48');
 }
