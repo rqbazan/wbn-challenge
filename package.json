@@ -9,9 +9,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "next:export": "next build && next export",
+    "storybook:export": "build-storybook -o out/storybook",
+    "build": "yarn next:export && yarn storybook:export"
   },
   "husky": {
     "hooks": {
