@@ -1,4 +1,4 @@
-import './style.css'
+import './styles.css'
 import React from 'react'
 
 export default function Button({ color = 'primary', ...props }) {

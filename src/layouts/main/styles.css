@@ -1,0 +1,18 @@
+.nav-item {
+  @apply px-4 py-1;
+}
+
+.nav-item:not(:last-child) {
+  @apply mb-1;
+}
+
+.btn-container .button:not(:last-child) {
+  @apply mr-3;
+}
+
+.header {
+  @apply flex items-center justify-between;
+  @apply py-4 px-8 h-20;
+  @apply bg-header fixed right-0;
+  left: theme('spacing.48');
+}
