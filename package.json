@@ -9,8 +9,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
     "storybook": "start-storybook"
   },
   "husky": {
