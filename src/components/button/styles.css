@@ -1,8 +1,9 @@
 .button {
-  @apply h-8 w-32 rounded-sm;
+  @apply h-8 px-6 rounded-sm;
   @apply text-sm text-text;
   @apply appearance-none;
   transition: background 0.2s;
+  width: fit-content;
 }
 
 .button:focus {
@@ -18,9 +19,9 @@
 }
 
 .secondary {
-  @apply bg-purple-600;
+  @apply bg-secondary;
 }
 
 .secondary:hover {
-  @apply bg-purple-700;
+  @apply bg-secondary-dark;
 }

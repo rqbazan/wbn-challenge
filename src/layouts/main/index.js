@@ -1,6 +1,6 @@
 import './styles.css'
 import React from 'react'
-import Button from '../../components/button'
+import { Button } from '../../components'
 import navItems from './nav-items.json'
 
 export default function MainLayout({ children }) {
@@ -25,7 +25,7 @@ export default function MainLayout({ children }) {
           </a>
         </nav>
       </aside>
-      <div className="ml-48 w-full">
+      <div className="flex ml-48 w-full justify-center">
         <header className="header">
           <div className="w-48">
             <img src="/img/logo.svg" alt="Italian Business Guide Logo" />
@@ -35,7 +35,7 @@ export default function MainLayout({ children }) {
             <Button>Register</Button>
           </div>
         </header>
-        <main className="mt-20">{children}</main>
+        <main className="flex flex-col mt-20 max-w-6xl">{children}</main>
       </div>
     </div>
   )

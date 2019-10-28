@@ -3,4 +3,9 @@
 
 /* purgecss start ignore */
 @tailwind base;
+
+body {
+  @apply bg-app;
+}
+
 /* purgecss end ignore */

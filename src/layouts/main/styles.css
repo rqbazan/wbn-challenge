@@ -6,6 +6,10 @@
   @apply mb-1;
 }
 
+.btn-container .button {
+  @apply w-32;
+}
+
 .btn-container .button:not(:last-child) {
   @apply mr-3;
 }
