@@ -1,0 +1,26 @@
+.button {
+  @apply h-8 w-32 rounded-sm;
+  @apply text-sm text-white;
+  @apply appearance-none;
+  transition: background 0.2s;
+}
+
+.button:focus {
+  @apply outline-none;
+}
+
+.primary {
+  @apply bg-pink-400;
+}
+
+.primary:hover {
+  @apply bg-pink-500;
+}
+
+.secondary {
+  @apply bg-purple-600;
+}
+
+.secondary:hover {
+  @apply bg-purple-700;
+}

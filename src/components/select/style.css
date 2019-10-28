@@ -1,0 +1,15 @@
+.select {
+  @apply px-4 h-8 w-full;
+  @apply appearance-none;
+  @apply text-sm text-black;
+  @apply rounded-none;
+  @apply bg-white;
+}
+
+.select:focus {
+  @apply outline-none;
+}
+
+.arrow {
+  pointer-events: none;
+}

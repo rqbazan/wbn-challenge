@@ -1,0 +1,10 @@
+.input {
+  @apply pl-4 pr-3 h-8 w-full;
+  @apply appearance-none;
+  @apply text-sm text-black;
+  @apply bg-transparent;
+}
+
+.input:focus {
+  @apply outline-none;
+}
