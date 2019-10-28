@@ -19,7 +19,7 @@ jobs:
       - name: Lint
         run: yarn lint .
 
-      - name: Typecheck
+      - name: Build
         run: yarn build
 
         env:
